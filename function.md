@@ -68,3 +68,6 @@ def fact(n:"int >= 0") -> int:
 Chaque argument peut avoir une annotation précédé par `:` (et s'il y a une valeur par défaut il précède le `=`). Pour annoter la valeur de retour on ajoute après la parenthère fermante de la déclaration de fonction tout d'abord `->`, puis le type. L'expression peut-être de n'importe quel type, comme `str`, `int` ou un string.
 
 Les annotations ne sont pas faite pour faire une vérification des types lors de l'execution du code, les informations sont juste stockées dans l'attribut `__annotations__`, et n'ont donc aucun sens pour l'interpréteur python. Cependant ces informations peuvent être utilisées par les IDE par exemple.
+
+## *args et **kwargs
+
